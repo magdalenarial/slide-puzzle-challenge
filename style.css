@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+body {
+    background-color: #55efc4;
+background-image: linear-gradient(315deg, #55efc4 0%, #000000 74%);
+}
+
+
+#tab_grid {
+    width: 500px;
+    height: 500px;
+    border: 5px solid #26a356;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 1px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #26a356;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.pieces {
+    height: 123px;
+    width: 123px;
+    font-size: 0.1px;
+}
+
+#row-1-col-1 {
+    background: url('1.jpg');
+}
+
+#row-1-col-2 {
+    background: url('2.jpg');
+}
+
+#row-1-col-3 {
+    background: url('3.jpg');
+}
+
+#row-1-col-4 {
+    background: url('4.jpg');
+}
+
+#row-2-col-1 {
+    background: url('5.jpg');
+}
+
+#row-2-col-2 {
+    background: url('6.jpg');
+}
+
+#row-2-col-3 {
+    background: url('7.jpg');
+}
+
+#row-2-col-4 {
+    background: url('8.jpg');
+}
+
+
+#row-3-col-1 {
+    background: url('9.jpg');
+}
+
+#row-3-col-2 {
+    background: url('10.jpg');
+}
+
+#row-3-col-3 {
+    background: url('11.jpg');
+}
+
+#row-3-col-4 {
+    background: url('12.jpg');
+}
+
+#row-4-col-1 {
+    background: url('13.jpg');
+}
+
+#row-4-col-2 {
+    background: url('14.jpg');
+}
+
+#row-4-col-3 {
+    background: url('15.jpg');
+}
+
+
+#start {
+    width: 170px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid #26a356;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    background-color: #26a356;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+   text-shadow: 0px 0px 10px #000;
+    cursor: pointer;
+    font-family: 'Potta One', cursive;
+}
+
+#start:hover {
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
