@@ -1,14 +1,6 @@
+  function startGame(){
+    var imagePosition = Array.from({length: 15}, (_, i) => i + 1).sort(() => Math.random() - 0.5);
 
-function startGame(){
-    var imagePosition = new Array();
-    while(imagePosition.length < 15){
-        var numero = Math.round(Math.random() * 100);
-        if( (numero == 1) || (numero == 2) || (numero == 3) || (numero == 4) || (numero == 5) || (numero == 6) || (numero == 7) || (numero == 8) || (numero == 9) || (numero == 10) || (numero == 11) || (numero == 12) || (numero == 13)|| (numero == 14) || (numero == 15)) {
-            if(!imagePosition.includes(numero)){
-                    imagePosition[imagePosition.length] = numero;
-            }
-        }
-    }
     document.getElementById('row-1-col-1').textContent = imagePosition[0];
     document.getElementById('row-1-col-1').style.background = 'url('+imagePosition[0]+'.jpg)'; 
 
