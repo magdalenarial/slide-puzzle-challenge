@@ -2,7 +2,7 @@
 
 body {
     background-color: #55efc4;
-background-image: linear-gradient(315deg, #55efc4 0%, #000000 74%);
+    background-image: linear-gradient(315deg, #55efc4 0%, #000000 74%);
 }
 
 
@@ -86,7 +86,6 @@ background-image: linear-gradient(315deg, #55efc4 0%, #000000 74%);
 #row-4-col-3 {
     background: url('15.jpg');
 }
-
 
 #start {
     width: 170px;
