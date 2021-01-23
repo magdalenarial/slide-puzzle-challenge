@@ -1,22 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+.estrellas {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
 body {
-    background-color: #55efc4;
-    background-image: linear-gradient(315deg, #55efc4 0%, #000000 74%);
+  background:#000 url(http://1.bp.blogspot.com/-q7NYia_DjQI/U4t7_J4gwwI/AAAAAAAAMKo/nru4YxfjK6I/s1600/estrellas.png) repeat top center;
+}
+
+.estrellas{
+  background:transparent url(http://3.bp.blogspot.com/-FwB8aSiMBmI/U4t9MkimRrI/AAAAAAAAMK0/FAlqX8ZFyu8/s1600/twinkling.png) repeat top center;
+  z-index:-2;
+
+  -moz-animation:move-twink-back 100s linear infinite;
+  -ms-animation:move-twink-back 100s linear infinite;
+  -o-animation:move-twink-back 100s linear infinite;
+  -webkit-animation:move-twink-back 100s linear infinite;
+  animation:move-twink-back 100s linear infinite;
 }
 
 
 #tab_grid {
     width: 500px;
     height: 500px;
-    border: 5px solid #26a356;
+    border: 5px solid rgb(0, 0, 0);
     border-radius: 5px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 1px;
     margin: auto;
     margin-top: 20px;
-    background-color: #26a356;
+    background-color: #060706;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
@@ -91,13 +129,13 @@ body {
     width: 170px;
     margin: auto;
     margin-top: 20px;
-    border: 2px solid #26a356;
+    border: 2px solid #000000;
     height: 40px;
     border-radius: 10px;
     text-align: center;
     padding-top: 10px;
-    color: black;
-    background-color: #26a356;
+    color: white;
+    background-color: #000000;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
    text-shadow: 0px 0px 10px #000;
     cursor: pointer;
